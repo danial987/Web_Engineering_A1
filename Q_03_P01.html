@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Examples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Question no 03 - Part 1</h2><br><br>
+    <form action="post" method="post">
+        <table>
+            <thead>
+                <tr>
+                    <td colspan="4" class="Registration">
+                        <h1>Registration Form</h1>
+                    </td>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><label for="">Student Name</label></td>
+                    <td><input type="text" name="fname" id="fname" placeholder="First Name"></td>
+                    <td><input type="text" name="mname" id="mname" placeholder="Middle Name"></td>
+                    <td><input type="text" name="lname" id="lname" placeholder="Last Name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="FatherName">Father Name</label></td>
+                    <td><input type="text" name="FatherName" id="FatherName" placeholder="Enter your Father's Name">
+                    </td>
+                    <td><label for="MotherName">Mother Name</label></td>
+                    <td><input type="text" name="MotherName" id="MotherName" placeholder="Enter your Mother's Name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="DOB">Date of Birth</label></td>
+                    <td><input type="date" name="DOB" id="DOB"></td>
+                    <td><label for="gender">Gender</label></td>
+                    <td><input type="radio" name="Gender" id="Gender"><label for="Gender"> Male</label>
+                        &nbsp;&nbsp;<input type="radio" name="Gender" id="Gender"><label for="Gender">
+                            Female</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="Catrgory">Catrgory</label></td>
+                    <td><input type="radio" name="Catrgory" id="Catrgory"><label for="Catrgory"> GEN</label>
+                        &nbsp;&nbsp;<input type="radio" name="Catrgory" id="Catrgory"><label for="Catrgory">
+                            OBC</label>&nbsp;&nbsp; <input type="radio" name="Catrgory" id="Catrgory"><label
+                            for="Catrgory">SC/ST</label>
+                    </td>
+
+                    <td><label for="gender">Handicapped</label></td>
+                    <td><input type="radio" name="Handicapped" id="Yes"><label for="Handicapped"> Yes</label>
+                        &nbsp;&nbsp;<input type="radio" name="Handicapped" id="No"><label for="Handicapped">
+                            No</label>
+                    </td>
+
+
+                </tr>
+
+
+                <tr>
+                    <td><label for="gender">Ex-Serviceman</label></td>
+                    <td><input type="radio" name="Ex-Serviceman" id="Yes"><label for="Ex-Serviceman">
+                            Yes</label> &nbsp;&nbsp;<input type="radio" name="Ex-Serviceman" id="No"><label
+                            for="Ex-Serviceman"> No</label>
+                    </td>
+
+                    <td><label for="gender">EWS</label></td>
+                    <td><input type="radio" name="EWS" id="Yes"><label for="EWS"> Yes</label> &nbsp;&nbsp;<input
+                            type="radio" name="EWS" id="No"><label for="EWS"> No</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email-id</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="Enter your Email id"></td>
+
+                    <td><label for="Mobile">Mobile No.</label></td>
+                    <td><input type="phone" name="Mobile" id="Mobile" placeholder="Enter your Mobile No."></td>
+                </tr>
+
+
+                <tr>
+                    <td><label for="State">State</label></td>
+                    <td><select name="State" id="State">
+                            <option value="Punjab">Punjab</option>
+                            <option value="Sindh">Sindh</option>
+                            <option value="Blochistan">Blochistan</option>
+                            <option value="KPK">KPK</option>
+                            <option value="Islamabad">Islamabad</option>
+
+
+                        </select></td>
+                    <td><label for="City">City</label></td>
+                    <td><select name="City" id="City">
+                            <option value="Islamabad">Islamabad</option>
+                            <option value="Rawalpindi">Rawalpindi</option>
+                            <option value="Karachi">Karachi</option>
+                            <option value="Lahore">Lahore</option>
+                            <option value="Murree">Murree</option>
+                            <option value="Hyderabad">Hyderabad</option>
+                            <option value="Faisalabad">Faisalabad</option>
+                            <option value="Shaikarpur">Shaikarpur</option>
+
+                        </select></td>
+                </tr>
+
+                <tr>
+                    <td><label for="upload-photo">Upload Photo</label></td>
+                    <td><input type="file" name="upload-photo" id="upload-photo"></td>
+
+                    <td><label for="upload-photo">Upload Signature</label></td>
+                    <td><input type="file" name="upload-Signature" id="upload-Signature"></td>
+                </tr>
+
+                <tr>
+                    <td colspan="4"><button type="submit">Submit</button></td>
+                </tr>
+
+
+            </tbody>
+        </table>
+    </form>
+
+</body>
+
+</html>
